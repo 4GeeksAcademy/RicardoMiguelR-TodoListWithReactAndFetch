@@ -1,12 +1,56 @@
 
-/* 
+body {
+    font-family: monospace;
+    background-image: url(https://media.istockphoto.com/id/515606836/es/foto/fondo-de-escritorio.jpg?s=612x612&w=0&k=20&c=jO5Osr_Dvnc440UAGpSfsIo_aVa3wE2teQbLXRLkqjI=);
+    background-size: cover;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo-box {
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/489/954/desktop-wallpaper-line-yellow-sheet-strip-background-field-notebook.jpg);
+    background-size: cover;
+    display: inline-grid;
+    padding: 50px;
+    border-radius: 15px;
+}
 
-*/
+.Title {
+    background-image: url(https://media.istockphoto.com/id/868991924/es/foto/viejo-grunge-oscuro-con-textura-de-fondo-de-madera-la-superficie-de-la-vieja-textura-de-madera.webp?b=1&s=170667a&w=0&k=20&c=izF23sxAlI06fx8_bVvzWYdawSh2EXeOBYGkecJBRxs=);
+    font-family: Copperplate Gothic;
+    font-size: 50px;
+    color: rgba(243, 244, 247, 0.801);
+    position: relative;
+    display: table;
+    margin-inline: auto;
+    border-radius: 30px;
+    padding: 7px;
+    border-width: 5cap;
+    
+}
+
+.todo-input {
+    font-family: Lucida Handwriting;
+    width: 700px;
+    height: 40px;
+    background: white;
+    border-radius: 15px;
+}
+
+.add-count {
+    justify-self: left;
+    font-family: Impact;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background: rgba(224, 39, 39, 0.541);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.task-absolute {
+    font-family: Lucida Handwriting;
+    font-size: 15px;
+    text-align-last: start
+}
+
+.list {
+    list-style-type: none;
+}

@@ -1,3 +1,5 @@
+// Componente inactivo, solo se tomo la base y se paso a home.jsx
+
 import React, { useState } from "react";
 
 const TodoList = () => {
